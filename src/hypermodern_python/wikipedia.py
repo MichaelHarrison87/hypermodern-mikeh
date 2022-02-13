@@ -13,4 +13,4 @@ def random_page(language="en") -> Dict:
             response.raise_for_status()
             return response.json()
     except requests.RequestException as error:
-        raise click.ClickException(str(error))
+        raise click.ClickException(str(error)) from error

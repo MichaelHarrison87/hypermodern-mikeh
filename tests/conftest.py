@@ -6,7 +6,7 @@ def mock_requests_get(mocker):
     mock = mocker.patch("requests.get")
     mock.return_value.__enter__.return_value.json.return_value = {
         "title": "Foo",
-        "extract": "bar"
+        "extract": "bar",
     }
     return mock
 
