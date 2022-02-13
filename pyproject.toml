@@ -42,6 +42,7 @@ flake8-docstrings = "^1.6.0"
 darglint = "^1.8.1"
 xdoctest = "^0.15.10"
 Pygments = "^2.11.2"
+sphinx-autodoc-typehints = "^1.17.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
