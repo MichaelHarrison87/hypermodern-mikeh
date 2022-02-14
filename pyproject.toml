@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hypermodern-python-mikeh"
-version = "0.1.0"
+version = "0.1.2"
 description = "Hypermodern Python Project"
 authors = ["MichaelHarrison87 <harrisoneighty7@gmail.com>"]
 license = "GNU GPL 3.0"
