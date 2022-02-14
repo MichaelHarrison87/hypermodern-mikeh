@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hypermodern-python-mikeh"
-version = "0.1.0"
+version = "0.1.2"
 description = "Hypermodern Python Project"
 authors = ["MichaelHarrison87 <harrisoneighty7@gmail.com>"]
 license = "GNU GPL 3.0"
@@ -11,6 +11,7 @@ keywords = ["hypermodern"]
 packages = [
     { include = "hypermodern_python", from = "src" }
 ]
+documentation = "https://hypermodern-mikeh.readthedocs.io"
 
 [tool.poetry.scripts]
 hypermodern-python="hypermodern_python.console:main"
